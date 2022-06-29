@@ -90,7 +90,6 @@
 }
 
 /* second section */
-
 .second_section figure,
 .second_section img{
     border-radius: 20px;
@@ -104,7 +103,6 @@
 }
 
 /* third section */
-
 .third_section .third .card{
     border: 0px;
     cursor: pointer;
@@ -137,6 +135,16 @@
     border-radius: 20px;
 }
 
-/* sixth section */
-.sixth_section .card img{
+/* footer */
+footer .logo{
+    width: 60px;
+}
+
+footer ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+footer .excerpt{
+    font-size: 0.8em;
 }
