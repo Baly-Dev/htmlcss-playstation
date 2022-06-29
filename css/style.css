@@ -74,3 +74,31 @@
 .header_second .dropdown_item_icon{
     max-width: 60px ;
 }
+
+/* fist section */
+.first_section{
+    background-image: url(../media/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 450px;
+    padding-bottom: 50px;
+}
+
+.first_section img{
+    width: 250px;
+}
+
+/* second section */
+
+.second_section figure,
+.second_section img{
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.second_section figure.active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    outline: 2px solid var(--secondary-light);
+    outline-offset: 5px;
+}
