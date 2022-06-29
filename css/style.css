@@ -145,6 +145,15 @@ footer ul li{
     cursor: pointer;
 }
 
+footer ul li a{
+    text-decoration: none;
+}
+
+footer ul li:hover{
+    color: rgb(226, 226, 226) !important;
+    text-decoration: underline;
+}
+
 footer .excerpt{
     font-size: 0.8em;
 }
