@@ -102,3 +102,22 @@
     outline: 2px solid var(--secondary-light);
     outline-offset: 5px;
 }
+
+/* third section */
+
+.third_section .third .card{
+    border: 0px;
+}
+
+.third_section .third .card img{
+    opacity: 0.6;
+    max-width: 80px;
+}
+
+.third_section .third .active{
+    border-bottom: 2px solid var(--secondary-light);
+}
+
+.third_section .third .active img{
+    opacity: 1;
+}
