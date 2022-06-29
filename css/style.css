@@ -36,12 +36,21 @@
     background-color: var(--secondary-light);
 }
 
+.bg_white{
+    background-color: #FFF;
+}
+
 .cursor_pointer{
     cursor: pointer;
 }
 
-.link_hover:hover{
+.link_hover:hover,
+.link_hover:focus{
     color: var(--secondary-light) !important;
+}
+
+.link_hover:focus i{
+    transform: rotate(180deg);
 }
 
 .btn-rounded{
