@@ -131,3 +131,8 @@
     background-repeat: no-repeat;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
 }
+
+/* fifth section */
+.fifth_section .card img{
+    border-radius: 20px;
+}
